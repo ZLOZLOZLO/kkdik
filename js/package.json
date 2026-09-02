@@ -1,0 +1,35 @@
+{
+  "name": "kkdik",
+  "version": "0.1.0",
+  "description": "Türkiye KKDİK madde envanteri istemcisi — CAS numarasından zararlılık sınıflandırması ve kayıt son tarihi",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": ["index.js", "README.md"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "kkdik",
+    "reach",
+    "chemical",
+    "regulatory",
+    "cas",
+    "turkey",
+    "kimyasal",
+    "mevzuat"
+  ],
+  "author": "ONAY Mühendislik",
+  "license": "MIT",
+  "homepage": "https://kkdik.ai/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZLOZLOZLO/kkdik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZLOZLOZLO/kkdik/issues"
+  }
+}

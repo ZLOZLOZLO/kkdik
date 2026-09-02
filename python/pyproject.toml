@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kkdik"
+version = "0.1.0"
+description = "Türkiye KKDİK madde envanteri istemcisi — CAS numarasından zararlılık sınıflandırması ve kayıt son tarihi"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "ONAY Mühendislik", email = "info@onaymuhendislik.com" }]
+keywords = ["kkdik", "reach", "chemical", "regulatory", "cas", "turkey", "kimyasal", "mevzuat"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Turkish",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://kkdik.ai/"
+Documentation = "https://github.com/ZLOZLOZLO/kkdik#readme"
+Source = "https://github.com/ZLOZLOZLO/kkdik"
+
+[project.scripts]
+kkdik = "kkdik.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kkdik"]
